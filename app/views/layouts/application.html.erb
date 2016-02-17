@@ -4,21 +4,31 @@
   <title>Mario Sparta - home blog</title>
   <link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/application.css">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
   <header id="main_navigation" class="clearfix">
-    <a class="name" href="#">Mario Sparta</a>
+    <%= link_to "Mario Sparta", root_path, class: "name" %>
     <nav>
       <%= link_to "Articles", posts_path %>
       <a href="#">Projects</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
+
   <%= yield %>
 
+  <footer id="main_footer">
+    <p class="copyright">&copy; 2016 Mario Sparta</p>
+    <nav>
+      <a href="http://vk.com/megosparta", target="_blank"><i class="fa fa-vk"></i></a>
+      <a href="https://www.facebook.com/mario.sparta.31", target="_blank"><i class="fa fa-facebook"></i></a>
+      <a href="https://twitter.com/mario_sparta", target="_blank"><i class="fa fa-twitter"></i></a>
+      <a href="https://github.com/megosparta", target="_blank"><i class="fa fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/mario-sparta-573054b6", target="_blank"><i class="fa fa-linkedin"></i></a>
+    </nav>
+  </footer>
 </body>
 </html>

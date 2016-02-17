@@ -56,12 +56,13 @@
   i {
     color: $dark;
     padding: 1em 1.5em;
-    &hover {
+    &:hover {
       color: $highlight;
       cursor: pointer;
     }
   }
 }
+
 //- - - - - - - - Pagination
 
 .pagination:before,

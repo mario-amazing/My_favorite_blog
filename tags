@@ -15,12 +15,16 @@ PostTest	test/models/post_test.rb	/^class PostTest < ActiveSupport::TestCase$/;"
 PostsController	app/controllers/posts_controller.rb	/^class PostsController < ApplicationController$/;"	c
 PostsControllerTest	test/controllers/posts_controller_test.rb	/^class PostsControllerTest < ActionController::TestCase$/;"	c
 PostsHelper	app/helpers/posts_helper.rb	/^module PostsHelper$/;"	m
+WelcomeController	app/controllers/welcome_controller.rb	/^class WelcomeController < ApplicationController$/;"	c
+WelcomeControllerTest	test/controllers/welcome_controller_test.rb	/^class WelcomeControllerTest < ActionController::TestCase$/;"	c
+WelcomeHelper	app/helpers/welcome_helper.rb	/^module WelcomeHelper$/;"	m
 change	db/migrate/20160214141401_create_posts.rb	/^  def change$/;"	f	class:CreatePosts
 create	app/controllers/posts_controller.rb	/^  def create$/;"	f	class:PostsController
 destroy	app/controllers/posts_controller.rb	/^  def destroy$/;"	f	class:PostsController
 edit	app/controllers/posts_controller.rb	/^  def edit$/;"	f	class:PostsController
 find_post	app/controllers/posts_controller.rb	/^  def find_post$/;"	f	class:PostsController
 index	app/controllers/posts_controller.rb	/^  def index$/;"	f	class:PostsController
+index	app/controllers/welcome_controller.rb	/^  def index$/;"	f	class:WelcomeController
 new	app/controllers/posts_controller.rb	/^  def new$/;"	f	class:PostsController
 post_params	app/controllers/posts_controller.rb	/^  def post_params$/;"	f	class:PostsController
 show	app/controllers/posts_controller.rb	/^  def show$/;"	f	class:PostsController
