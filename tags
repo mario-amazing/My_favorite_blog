@@ -5,9 +5,11 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+AddSlugToPosts	db/migrate/20160220041943_add_slug_to_posts.rb	/^class AddSlugToPosts < ActiveRecord::Migration$/;"	c
 Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:MyFavoriteBlog
 ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
 ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+CreateFriendlyIdSlugs	db/migrate/20160220041815_create_friendly_id_slugs.rb	/^class CreateFriendlyIdSlugs < ActiveRecord::Migration$/;"	c
 CreatePosts	db/migrate/20160214141401_create_posts.rb	/^class CreatePosts < ActiveRecord::Migration$/;"	c
 HTMLwithPygments	app/helpers/application_helper.rb	/^  class HTMLwithPygments < Redcarpet::Render::HTML$/;"	c	class:ApplicationHelper
 MyFavoriteBlog	config/application.rb	/^module MyFavoriteBlog$/;"	m
@@ -22,6 +24,8 @@ WelcomeControllerTest	test/controllers/welcome_controller_test.rb	/^class Welcom
 WelcomeHelper	app/helpers/welcome_helper.rb	/^module WelcomeHelper$/;"	m
 block_code	app/helpers/application_helper.rb	/^    def block_code(code, language)$/;"	f	class:ApplicationHelper.HTMLwithPygments
 change	db/migrate/20160214141401_create_posts.rb	/^  def change$/;"	f	class:CreatePosts
+change	db/migrate/20160220041815_create_friendly_id_slugs.rb	/^  def change$/;"	f	class:CreateFriendlyIdSlugs
+change	db/migrate/20160220041943_add_slug_to_posts.rb	/^  def change$/;"	f	class:AddSlugToPosts
 create	app/controllers/posts_controller.rb	/^  def create$/;"	f	class:PostsController
 destroy	app/controllers/posts_controller.rb	/^  def destroy$/;"	f	class:PostsController
 edit	app/controllers/posts_controller.rb	/^  def edit$/;"	f	class:PostsController
