@@ -11,6 +11,7 @@ ApplicationController	app/controllers/application_controller.rb	/^class Applicat
 ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
 CreateFriendlyIdSlugs	db/migrate/20160220041815_create_friendly_id_slugs.rb	/^class CreateFriendlyIdSlugs < ActiveRecord::Migration$/;"	c
 CreatePosts	db/migrate/20160214141401_create_posts.rb	/^class CreatePosts < ActiveRecord::Migration$/;"	c
+CreateProjects	db/migrate/20160220195139_create_projects.rb	/^class CreateProjects < ActiveRecord::Migration$/;"	c
 HTMLwithPygments	app/helpers/application_helper.rb	/^  class HTMLwithPygments < Redcarpet::Render::HTML$/;"	c	class:ApplicationHelper
 MyFavoriteBlog	config/application.rb	/^module MyFavoriteBlog$/;"	m
 Post	app/models/post.rb	/^class Post < ActiveRecord::Base$/;"	c
@@ -18,6 +19,11 @@ PostTest	test/models/post_test.rb	/^class PostTest < ActiveSupport::TestCase$/;"
 PostsController	app/controllers/posts_controller.rb	/^class PostsController < ApplicationController$/;"	c
 PostsControllerTest	test/controllers/posts_controller_test.rb	/^class PostsControllerTest < ActionController::TestCase$/;"	c
 PostsHelper	app/helpers/posts_helper.rb	/^module PostsHelper$/;"	m
+Project	app/models/project.rb	/^class Project < ActiveRecord::Base$/;"	c
+ProjectTest	test/models/project_test.rb	/^class ProjectTest < ActiveSupport::TestCase$/;"	c
+ProjectsController	app/controllers/projects_controller.rb	/^class ProjectsController < ApplicationController$/;"	c
+ProjectsControllerTest	test/controllers/projects_controller_test.rb	/^class ProjectsControllerTest < ActionController::TestCase$/;"	c
+ProjectsHelper	app/helpers/projects_helper.rb	/^module ProjectsHelper$/;"	m
 RenderWithoutCode	app/helpers/application_helper.rb	/^  class RenderWithoutCode < Redcarpet::Render::HTML$/;"	c	class:ApplicationHelper
 WelcomeController	app/controllers/welcome_controller.rb	/^class WelcomeController < ApplicationController$/;"	c
 WelcomeControllerTest	test/controllers/welcome_controller_test.rb	/^class WelcomeControllerTest < ActionController::TestCase$/;"	c
@@ -26,11 +32,15 @@ block_code	app/helpers/application_helper.rb	/^    def block_code(code, language
 change	db/migrate/20160214141401_create_posts.rb	/^  def change$/;"	f	class:CreatePosts
 change	db/migrate/20160220041815_create_friendly_id_slugs.rb	/^  def change$/;"	f	class:CreateFriendlyIdSlugs
 change	db/migrate/20160220041943_add_slug_to_posts.rb	/^  def change$/;"	f	class:AddSlugToPosts
+change	db/migrate/20160220195139_create_projects.rb	/^  def change$/;"	f	class:CreateProjects
 create	app/controllers/posts_controller.rb	/^  def create$/;"	f	class:PostsController
+create	app/controllers/projects_controller.rb	/^  def create$/;"	f	class:ProjectsController
 destroy	app/controllers/posts_controller.rb	/^  def destroy$/;"	f	class:PostsController
 edit	app/controllers/posts_controller.rb	/^  def edit$/;"	f	class:PostsController
 find_post	app/controllers/posts_controller.rb	/^  def find_post$/;"	f	class:PostsController
+find_project	app/controllers/projects_controller.rb	/^  def find_project$/;"	f	class:ProjectsController
 index	app/controllers/posts_controller.rb	/^  def index$/;"	f	class:PostsController
+index	app/controllers/projects_controller.rb	/^  def index$/;"	f	class:ProjectsController
 index	app/controllers/welcome_controller.rb	/^  def index$/;"	f	class:WelcomeController
 markdown	app/helpers/application_helper.rb	/^    def markdown(content)$/;"	f	class:ApplicationHelper
 markdown	app/helpers/application_helper.rb	/^    def markdown(content)$/;"	f	class:ApplicationHelper.HTMLwithPygments
@@ -39,7 +49,12 @@ markdown	app/helpers/application_helper.rb	/^  def markdown(content)$/;"	f	class
 markdown	app/helpers/application_helper.rb	/^  def markdown(content)$/;"	f	class:ApplicationHelper.HTMLwithPygments
 markdown	app/helpers/application_helper.rb	/^  def markdown(content)$/;"	f	class:ApplicationHelper.RenderWithoutCode
 new	app/controllers/posts_controller.rb	/^  def new$/;"	f	class:PostsController
+new	app/controllers/projects_controller.rb	/^  def new$/;"	f	class:ProjectsController
 post_params	app/controllers/posts_controller.rb	/^  def post_params$/;"	f	class:PostsController
+project_params	app/controllers/projects_controller.rb	/^  def project_params$/;"	f
+project_params	app/controllers/projects_controller.rb	/^  def project_params$/;"	f	class:ProjectsController
+project_params	app/controllers/projects_controller.rb	/^def project_params$/;"	f
 show	app/controllers/posts_controller.rb	/^  def show$/;"	f	class:PostsController
+show	app/controllers/projects_controller.rb	/^  def show$/;"	f	class:ProjectsController
 update	app/controllers/posts_controller.rb	/^  def update$/;"	f	class:PostsController
 updete	app/controllers/posts_controller.rb	/^  def updete$/;"	f	class:PostsController
