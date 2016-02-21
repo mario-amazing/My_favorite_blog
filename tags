@@ -6,6 +6,7 @@
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
 ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
 AddSlugToPosts	db/migrate/20160220041943_add_slug_to_posts.rb	/^class AddSlugToPosts < ActiveRecord::Migration$/;"	c
+AddSlugToProjects	db/migrate/20160221105426_add_slug_to_projects.rb	/^class AddSlugToProjects < ActiveRecord::Migration$/;"	c
 Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:MyFavoriteBlog
 ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
 ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
@@ -33,6 +34,7 @@ change	db/migrate/20160214141401_create_posts.rb	/^  def change$/;"	f	class:Crea
 change	db/migrate/20160220041815_create_friendly_id_slugs.rb	/^  def change$/;"	f	class:CreateFriendlyIdSlugs
 change	db/migrate/20160220041943_add_slug_to_posts.rb	/^  def change$/;"	f	class:AddSlugToPosts
 change	db/migrate/20160220195139_create_projects.rb	/^  def change$/;"	f	class:CreateProjects
+change	db/migrate/20160221105426_add_slug_to_projects.rb	/^  def change$/;"	f	class:AddSlugToProjects
 create	app/controllers/posts_controller.rb	/^  def create$/;"	f	class:PostsController
 create	app/controllers/projects_controller.rb	/^  def create$/;"	f	class:ProjectsController
 destroy	app/controllers/posts_controller.rb	/^  def destroy$/;"	f	class:PostsController
