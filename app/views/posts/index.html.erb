@@ -1,5 +1,11 @@
 <h1 id="page_title">Stuff I've written</h1>
 
+<p id="admin_button" >
+  <% if user_signed_in? %>
+    <%= link_to "New Post", new_post_path %>
+  <% end %>
+</p>
+
 <div id="posts_wrapper" class="skinny_wrapper">
   <% @posts.each do |post| %>
     <div class="post">

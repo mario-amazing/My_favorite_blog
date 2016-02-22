@@ -78,6 +78,21 @@
     text-decoration: none;
   }
 }
+
+#admin_button {
+  text-align: center;
+  margin: 20px 0;
+  a {
+    border: 3px solid $border;
+    padding: 1em 1em 1em 1em;
+    color: $light;
+    margin: 0 1em;
+    font-weight:700;
+    font-size: .8em;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}
 //- - - - - - - - Pagination
 
 .pagination:before,
