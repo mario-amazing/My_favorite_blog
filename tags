@@ -38,7 +38,9 @@ change	db/migrate/20160221105426_add_slug_to_projects.rb	/^  def change$/;"	f	cl
 create	app/controllers/posts_controller.rb	/^  def create$/;"	f	class:PostsController
 create	app/controllers/projects_controller.rb	/^  def create$/;"	f	class:ProjectsController
 destroy	app/controllers/posts_controller.rb	/^  def destroy$/;"	f	class:PostsController
+destroy	app/controllers/projects_controller.rb	/^  def destroy$/;"	f	class:ProjectsController
 edit	app/controllers/posts_controller.rb	/^  def edit$/;"	f	class:PostsController
+edit	app/controllers/projects_controller.rb	/^  def edit$/;"	f	class:ProjectsController
 find_post	app/controllers/posts_controller.rb	/^  def find_post$/;"	f	class:PostsController
 find_project	app/controllers/projects_controller.rb	/^  def find_project$/;"	f	class:ProjectsController
 index	app/controllers/posts_controller.rb	/^  def index$/;"	f	class:PostsController
@@ -59,4 +61,5 @@ project_params	app/controllers/projects_controller.rb	/^def project_params$/;"	f
 show	app/controllers/posts_controller.rb	/^  def show$/;"	f	class:PostsController
 show	app/controllers/projects_controller.rb	/^  def show$/;"	f	class:ProjectsController
 update	app/controllers/posts_controller.rb	/^  def update$/;"	f	class:PostsController
+update	app/controllers/projects_controller.rb	/^  def update$/;"	f	class:ProjectsController
 updete	app/controllers/posts_controller.rb	/^  def updete$/;"	f	class:PostsController
