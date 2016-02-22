@@ -10,6 +10,14 @@ AddSlugToProjects	db/migrate/20160221105426_add_slug_to_projects.rb	/^class AddS
 Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:MyFavoriteBlog
 ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
 ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+Contact	app/models/contact.rb	/^class Contact < MailFor::Base$/;"	c
+Contact	app/models/contact.rb	/^class Contact < MailForm::Base$/;"	c
+ContactController	app/controllers/contact_controller.rb	/^class ContactController < ApplicationController$/;"	c
+ContactControllerTest	test/controllers/contact_controller_test.rb	/^class ContactControllerTest < ActionController::TestCase$/;"	c
+ContactHelper	app/helpers/contact_helper.rb	/^module ContactHelper$/;"	m
+ContactsController	app/controllers/contacts_controller.rb	/^class ContactsController < ApplicationController$/;"	c
+ContactsControllerTest	test/controllers/contacts_controller_test.rb	/^class ContactsControllerTest < ActionController::TestCase$/;"	c
+ContactsHelper	app/helpers/contacts_helper.rb	/^module ContactsHelper$/;"	m
 CreateFriendlyIdSlugs	db/migrate/20160220041815_create_friendly_id_slugs.rb	/^class CreateFriendlyIdSlugs < ActiveRecord::Migration$/;"	c
 CreatePosts	db/migrate/20160214141401_create_posts.rb	/^class CreatePosts < ActiveRecord::Migration$/;"	c
 CreateProjects	db/migrate/20160220195139_create_projects.rb	/^class CreateProjects < ActiveRecord::Migration$/;"	c
@@ -35,6 +43,7 @@ change	db/migrate/20160220041815_create_friendly_id_slugs.rb	/^  def change$/;"	
 change	db/migrate/20160220041943_add_slug_to_posts.rb	/^  def change$/;"	f	class:AddSlugToPosts
 change	db/migrate/20160220195139_create_projects.rb	/^  def change$/;"	f	class:CreateProjects
 change	db/migrate/20160221105426_add_slug_to_projects.rb	/^  def change$/;"	f	class:AddSlugToProjects
+create	app/controllers/contacts_controller.rb	/^  def create$/;"	f	class:ContactsController
 create	app/controllers/posts_controller.rb	/^  def create$/;"	f	class:PostsController
 create	app/controllers/projects_controller.rb	/^  def create$/;"	f	class:ProjectsController
 destroy	app/controllers/posts_controller.rb	/^  def destroy$/;"	f	class:PostsController
@@ -43,6 +52,8 @@ edit	app/controllers/posts_controller.rb	/^  def edit$/;"	f	class:PostsControlle
 edit	app/controllers/projects_controller.rb	/^  def edit$/;"	f	class:ProjectsController
 find_post	app/controllers/posts_controller.rb	/^  def find_post$/;"	f	class:PostsController
 find_project	app/controllers/projects_controller.rb	/^  def find_project$/;"	f	class:ProjectsController
+headers	app/models/contact.rb	/^  def headers$/;"	f	class:Contact
+headers	app/models/contact.rb	/^ def headers$/;"	f	class:Contact
 index	app/controllers/posts_controller.rb	/^  def index$/;"	f	class:PostsController
 index	app/controllers/projects_controller.rb	/^  def index$/;"	f	class:ProjectsController
 index	app/controllers/welcome_controller.rb	/^  def index$/;"	f	class:WelcomeController
@@ -52,6 +63,7 @@ markdown	app/helpers/application_helper.rb	/^  def markdown(content)$/;"	f
 markdown	app/helpers/application_helper.rb	/^  def markdown(content)$/;"	f	class:ApplicationHelper
 markdown	app/helpers/application_helper.rb	/^  def markdown(content)$/;"	f	class:ApplicationHelper.HTMLwithPygments
 markdown	app/helpers/application_helper.rb	/^  def markdown(content)$/;"	f	class:ApplicationHelper.RenderWithoutCode
+new	app/controllers/contacts_controller.rb	/^  def new$/;"	f	class:ContactsController
 new	app/controllers/posts_controller.rb	/^  def new$/;"	f	class:PostsController
 new	app/controllers/projects_controller.rb	/^  def new$/;"	f	class:ProjectsController
 post_params	app/controllers/posts_controller.rb	/^  def post_params$/;"	f	class:PostsController
