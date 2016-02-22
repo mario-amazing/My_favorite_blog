@@ -21,6 +21,7 @@ ContactsHelper	app/helpers/contacts_helper.rb	/^module ContactsHelper$/;"	m
 CreateFriendlyIdSlugs	db/migrate/20160220041815_create_friendly_id_slugs.rb	/^class CreateFriendlyIdSlugs < ActiveRecord::Migration$/;"	c
 CreatePosts	db/migrate/20160214141401_create_posts.rb	/^class CreatePosts < ActiveRecord::Migration$/;"	c
 CreateProjects	db/migrate/20160220195139_create_projects.rb	/^class CreateProjects < ActiveRecord::Migration$/;"	c
+DeviseCreateUsers	db/migrate/20160222030129_devise_create_users.rb	/^class DeviseCreateUsers < ActiveRecord::Migration$/;"	c
 HTMLwithPygments	app/helpers/application_helper.rb	/^  class HTMLwithPygments < Redcarpet::Render::HTML$/;"	c	class:ApplicationHelper
 MyFavoriteBlog	config/application.rb	/^module MyFavoriteBlog$/;"	m
 Post	app/models/post.rb	/^class Post < ActiveRecord::Base$/;"	c
@@ -34,6 +35,8 @@ ProjectsController	app/controllers/projects_controller.rb	/^class ProjectsContro
 ProjectsControllerTest	test/controllers/projects_controller_test.rb	/^class ProjectsControllerTest < ActionController::TestCase$/;"	c
 ProjectsHelper	app/helpers/projects_helper.rb	/^module ProjectsHelper$/;"	m
 RenderWithoutCode	app/helpers/application_helper.rb	/^  class RenderWithoutCode < Redcarpet::Render::HTML$/;"	c	class:ApplicationHelper
+User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+UserTest	test/models/user_test.rb	/^class UserTest < ActiveSupport::TestCase$/;"	c
 WelcomeController	app/controllers/welcome_controller.rb	/^class WelcomeController < ApplicationController$/;"	c
 WelcomeControllerTest	test/controllers/welcome_controller_test.rb	/^class WelcomeControllerTest < ActionController::TestCase$/;"	c
 WelcomeHelper	app/helpers/welcome_helper.rb	/^module WelcomeHelper$/;"	m
@@ -43,6 +46,7 @@ change	db/migrate/20160220041815_create_friendly_id_slugs.rb	/^  def change$/;"	
 change	db/migrate/20160220041943_add_slug_to_posts.rb	/^  def change$/;"	f	class:AddSlugToPosts
 change	db/migrate/20160220195139_create_projects.rb	/^  def change$/;"	f	class:CreateProjects
 change	db/migrate/20160221105426_add_slug_to_projects.rb	/^  def change$/;"	f	class:AddSlugToProjects
+change	db/migrate/20160222030129_devise_create_users.rb	/^  def change$/;"	f	class:DeviseCreateUsers
 create	app/controllers/contacts_controller.rb	/^  def create$/;"	f	class:ContactsController
 create	app/controllers/posts_controller.rb	/^  def create$/;"	f	class:PostsController
 create	app/controllers/projects_controller.rb	/^  def create$/;"	f	class:ProjectsController
